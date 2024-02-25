@@ -75,3 +75,23 @@
 // console.log(Math.sqrt(81920 / PI)); //radius of garden: 161.48 meters
 
 //Control Flow Part 3
+// 
+const PI = 3.1415
+const radius = 5
+const area = PI * radius * radius
+let plant = 100
+// if the amount of space required to hold the originally provided number of plants exceeds the amount of space available, 
+// throw a new error and log an appropriate message.
+console.log(area); //78.54 meters total
+ 
+let = (space = plant * .8);
+    console.log(space); // 80 meters used up by 100 plants
+try {
+    if (space <= area) {
+        console.log('there is room');
+    } else {
+        throw "error - too many plants!";
+    }
+} catch (error) {
+    console.log(error)
+}
